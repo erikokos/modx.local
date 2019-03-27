@@ -1,0 +1,77 @@
+<?php  return array (
+  'items' => 
+  array (
+    0 => 
+    array (
+      'id' => 83,
+      'name' => 'd1.jpg',
+      'filename' => '4/83.jpg',
+      'description' => NULL,
+      'mediatype' => 'image',
+      'url' => NULL,
+      'createdon' => '2018-11-30 11:31:46',
+      'createdby' => 1,
+      'active' => 1,
+      'duration' => '',
+      'streamer' => NULL,
+      'watermark_pos' => 'tl',
+      'tags' => NULL,
+    ),
+    1 => 
+    array (
+      'id' => 85,
+      'name' => 'd2.jpg',
+      'filename' => '4/85.jpg',
+      'description' => NULL,
+      'mediatype' => 'image',
+      'url' => NULL,
+      'createdon' => '2018-11-30 11:31:46',
+      'createdby' => 1,
+      'active' => 1,
+      'duration' => '',
+      'streamer' => NULL,
+      'watermark_pos' => 'tl',
+      'tags' => NULL,
+    ),
+    2 => 
+    array (
+      'id' => 84,
+      'name' => 'd5.jpg',
+      'filename' => '4/84.jpg',
+      'description' => NULL,
+      'mediatype' => 'image',
+      'url' => NULL,
+      'createdon' => '2018-11-30 11:31:46',
+      'createdby' => 1,
+      'active' => 1,
+      'duration' => '',
+      'streamer' => NULL,
+      'watermark_pos' => 'tl',
+      'tags' => NULL,
+    ),
+    3 => 
+    array (
+      'id' => 86,
+      'name' => 'd6.jpg',
+      'filename' => '4/86.jpg',
+      'description' => NULL,
+      'mediatype' => 'image',
+      'url' => NULL,
+      'createdon' => '2018-11-30 11:31:46',
+      'createdby' => 1,
+      'active' => 1,
+      'duration' => '',
+      'streamer' => NULL,
+      'watermark_pos' => 'tl',
+      'tags' => NULL,
+    ),
+  ),
+  'total' => 4,
+  'album' => 
+  array (
+    'id' => 4,
+    'name' => 'diploms',
+    'description' => 'Сканы наград',
+    'year' => '2018',
+  ),
+);

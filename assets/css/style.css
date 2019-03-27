@@ -1,0 +1,163 @@
+/*
+date - 22.11.2018
+gp8.loc - web site style sheet
+current branch - master
+current stat - dev
+*/
+
+/*GLOBAL STYLES =( start here */
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-color: #fbffe0;
+}
+
+.ocenka_frame {
+	margin-top: 1rem;
+	margin-left: 0.2rem;
+	width: 100%;
+	height: 16rem;
+	border: 0;
+}
+
+.selected {
+	color: gold;
+}
+
+.adm_photo {
+	width: 5rem;
+}
+
+/*header: logo, infotab, photo - start*/
+.header {
+	background-color: blue;
+	margin-top: 3rem;
+}
+
+	.logo {
+		background-image: url(../img/logo3N.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+
+	.inf {
+		font-size: 1rem;
+		color: white;
+		text-align: center;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	.photo {
+		background-image: url(../img/photo.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: 50% 20%;
+	}
+
+/*runing string - start*/
+.runbox {
+	background-color: gold;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+	.runline {
+		justify-content: center;
+		padding: 0.4rem;
+		font-size: 0.9rem;
+		text-align: center;
+	}
+
+	.runline a {
+		text-decoration: none;
+		color: blue;
+	}
+
+		.runline a:hover {
+			color: purple;
+			text-decoration: none;
+		}
+
+/*navigation block - start*/
+.nav_box {
+	font-size: 0.8rem;
+	padding: 0;
+}
+	
+	.nav_box a {
+		display: block;
+		text-align: center;
+		padding: 0.4rem 0;
+		border-bottom: 1px solid #c4d1ff;
+		text-decoration: none;
+		background-color: blue;
+		color: white;
+	}
+
+		.nav_box a:hover {
+			background-color: #c4d1ff;
+			color: blue;
+			text-decoration: none;
+		}
+
+	.nav_box ul {	
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+.line-btn {
+	background-color: blue;
+	margin-bottom: 1rem;
+	font-size: 0.7rem;
+	border: 1px solid white;
+}
+
+
+/*content - start*/
+.mironych {
+	margin-right: 1rem;
+	float: left;
+	width: 18rem;
+}
+
+.hello_h1 {
+	font-size: 1.8rem;
+}
+
+.hello_guest {
+	font-size: 0.8rem;
+}
+
+/*banners - start*/
+.for_people {
+	padding: 0;
+}
+
+	.banner {
+		width: 100%;
+		margin-bottom: 0.5rem;
+	}
+
+/*footbanner - start*/
+.footbanner {
+	justify-content: center;
+}
+
+.banner_foot { 
+	margin-top: 1rem;
+	height: 5rem;
+}
+
+/*footer - start*/
+footer {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 0.8rem;
+	margin-bottom: 1rem;
+}
